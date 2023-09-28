@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: teal;
+    text-transform: capitalize;
+    
+}
+span{
+    color: orangered;
+}
+.logo{
+   
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px;
+    display: flex;
+
+}
+
+.navbar-links ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+     
+}
+.navbar-links ul li a:hover{
+    
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(255, 89, 0);
+    
+}
+
+@media(max-width:600px){
+   
+    .navbar{
+        margin: 2px;
+        flex-direction: column;
+        background-size: cover;
+    }
+    button{
+       padding: 0px;
+
+    }
+}
+.ram{
+    color: orangered;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:2;
+    background-image: url(./img.jpg);
+}
+.head{
+    
+    text-transform: capitalize;
+    color: white;
+    margin-right: 24px;
+    
+    
+}
+.rahul{
+    
+    color: white;
+    
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top:60px;
+    margin-left: 60px;
+    margin-right:40px;
+}
+h1{
+    
+    font-size: 60px;
+    font-weight: bold;
+    padding:0 0 10px 0;
+}
+h3{
+    
+    font-weight: bold;
+    font-size: 30px;
+    padding:0 0 10px 0;
+
+}
+.arrow{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: orangered;
+}
+.none{
+    margin-top:50px ;
+    padding-top:0px;
+    width: 150px;
+    height: 50px;
+    border-radius:30px;
+    background-color: orangered;
+    color: white;
+
+    border: none;
+}
+button{
+    text-transform: capitalize;
+    margin-top:50px ;
+    margin-right: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius:30px;
+    border: 2px solid rgb(255, 68, 0);
+    color:white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.num{
+    margin-top: 30px;
+    font-size: 18px;
+    display: flex;
+}
+.num p{
+    padding-right: 20px;
+}
+.num p:nth-child(1){
+    color: orangered;
+}
